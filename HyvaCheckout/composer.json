@@ -1,0 +1,17 @@
+{
+    "name": "moyasar-fintech/module-hyva-checkout",
+    "description": "Hyva Checkout compatibility for Moyasar Magento 2 module",
+    "type": "magento2-module",
+    "require": {
+        "moyasar-fintech/magento2": "*",
+        "hyva-themes/magento2-hyva-checkout": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moyasar\\HyvaCheckout\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
