@@ -11,7 +11,8 @@
     ],
     "require": {
         "ext-json": "*",
-        "ext-curl": "*"
+        "ext-curl": "*",
+        "hyva-themes/magento2-hyva-checkout": "*"
     },
     "license": "MIT",
     "autoload": {
